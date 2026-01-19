@@ -1,0 +1,13 @@
+<FancyWindow xmlns="https://spacestation14.io"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             Title="{Loc 'erp-panel-title'}"
+             MinSize="320 140">
+    <BoxContainer Orientation="Vertical" Margin="10" SeparationOverride="6">
+        <Label Text="{Loc 'erp-panel-description'}" />
+        <BoxContainer Orientation="Horizontal" SeparationOverride="8">
+            <Label Text="{Loc 'humanoid-profile-editor-status-label'}" VerticalAlignment="Center" />
+            <Control HorizontalExpand="True" />
+            <OptionButton Name="StatusButton" HorizontalAlignment="Right" />
+        </BoxContainer>
+    </BoxContainer>
+</FancyWindow>
